@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejer3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!--BARRA DE NAVEGACION-->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+    <div class="mx-md-auto text-uppercase font-weight-bold">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> Menu
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mx-5">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav mx-5">
+                <li class="nav-item">
+                    <a class="nav-link" href="formulario.html">Formulario</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+<!--CONTENIDO-->
+<img class="superior" src="superior.jpg">
+<article class="formulario-rrss container bg-white px-0">
+    <!--REDES SOCIALES-->
+<div class="row text-center mx-auto p-3 pb-5">
+
+    
+    <div class="row text-center mx-auto ">
+        <div class="social imagen col-12 col-sm-4 col-lg-4  my-3"><img src="facebook-brands.svg" alt=""></div>
+        <div class="social imagen col-12 col-sm-4 col-lg-4  my-3"><img src="google-plus-brands.svg" alt=""></div>
+        <div class="social imagen col-12 col-sm-4 col-lg-4  my-3"><img src="map-marker-alt-solid.svg" alt=""></div>
+    </div>
+
+
+</div>
+    <!---FORMULARIO-->
+    <div style="height: 510px;" class="row justify-content-center p-sm-5 py-4 px-3" id="formulario" >
+        <form class="w-100" action="http://www.cursos-diseno.es/mi-mail.php" method="POST">
+
+        <div class="row">
+            <div class="col-10 col-sm-6 mx-auto">
+                Email <input type="email" name="email" class="form-control">
+            </div>
+            <div class="col-10 col-sm-6 mx-auto">
+                Telefono <input type="tel" name="telefono" class="form-control">
+            </div>
+            <div class="col-10 col-sm-12 mx-auto">
+                Mensaje <textarea name="mensaje" rows="4" class="form-control"></textarea>
+            </div>
+            <div class="col-sm-12 col-10 text-right mx-auto" >
+                <input type="submit" value="Enviar" class="btn btn-dark pull-right" >
+            </div>
+            <div>
+                <input type="hidden" name="destinatario" value="victor_ramos_tsapp1oa2021@cev.com">
+            </div>
+        </div>
+    </form>
+    </div>
+</article>
+<img class="inferior" src="inferior.jpg">
+
+
+        <!-- FOOTER -->
+        <footer class="container-fluid position-absolute">
+            <p class="text-center">Calle Bomba 16. 50010 Saratoga. Tlfno: 666 999 666.</p>
+
+      </footer>
+
+        
+</body>
+
+</html>
